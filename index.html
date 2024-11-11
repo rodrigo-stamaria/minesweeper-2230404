@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscaminas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body oncontextmenu="return false">
+    <header>
+        <h1>🎲 Buscaminas Retro</h1>
+    </header>
+
+    <main>
+        <section id="controls">
+        <h3>Configura el Juego</h3>
+        <select id="dificultad">
+            <option value="facil">Fácil</option>
+            <option value="medio">Medio</option>
+            <option value="dificil">Difícil</option>
+            <option value="muy_dificil">Muy Difícil</option>
+            <option value="hardcore">Hardcore</option>
+            <option value="leyenda">Leyenda</option>
+        </select>
+        <p id="info-dificultad">Selecciona un nivel de dificultad.</p>
+        <button id="iniciar-juego">Iniciar Juego</button>
+        </section>
+        
+
+        <section id="game-info">
+        <span id="juego-nuevo" onclick="nuevoJuego()" style="display: none;">🔄 Reiniciar</span>
+        <span id="minas-count">💣 000</span>
+        </section>
+
+        <section id="game-board">
+        <table cellspacing="0" cellpadding="0" id="tablero"></table>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

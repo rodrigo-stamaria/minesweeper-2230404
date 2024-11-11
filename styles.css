@@ -1,0 +1,120 @@
+* {
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    text-align: center;
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    background-color: #f6e6cc; 
+    color: #5a3d1c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color: #4b2e13;
+    text-shadow: 1px 1px 2px #fff, -1px -1px 2px rgba(0, 0, 0, 0.2);
+}
+
+#controls {
+    background: #e6d2b5; 
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 300px;
+}
+
+#controls h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #4b2e13;
+}
+
+select {
+    background: #f3e5d2;
+    color: #4b2e13;
+    border: 1px solid #8c6d48;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-family: 'Georgia', serif;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+button {
+    background: #b79e7e;
+    color: #4b2e13;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+button:hover {
+    background: #a67a5e;
+    color: #fff;
+}
+
+#info-dificultad {
+    font-size: 0.9rem;
+    color: #5a3d1c;
+    margin-top: 10px;
+}
+
+#game-board {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#game-info {
+    margin-top: 20px;
+}
+
+#minas-count {
+    background: #4b2e13;
+    color: #f6e6cc;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
+table {
+    background: #d7b899; 
+    margin-top: 20px;
+    border-collapse: collapse;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+td {
+    border: 1px solid #8c6d48; 
+    text-align: center;
+    font-size: 1.2rem;
+    color: #5a3d1c;
+    background: #f3e5d2;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    box-shadow: inset 1px 1px 3px rgba(255, 255, 255, 0.8);
+}
